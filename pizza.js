@@ -42,6 +42,24 @@ price(){
   return totalCost
 }
 
+// extra
+addTopping(toptype,newtop){
+  if(toytype == "meat"){
+  this.meatToppings.push(newtop);
+}
+  if(toptype == "veggie"){
+    this.veggieToppings.push(newtop)
+  }
+}
+removeTopping(){
+  if(toytype == "meat"){
+  this.meatToppings.splice.(indexOf(newtop[0]),newtop.length);
+}
+  if(toptype == "veggie"){
+    this.veggieToppings.splice.(indexOf(newtop[0]),newtop.length)
+  }
+}
+
 
   //type class functions below
 static promotion(pizza,percent)
